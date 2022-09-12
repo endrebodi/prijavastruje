@@ -10,7 +10,6 @@
 <meta property="og:url" content="">
 <meta property="og:image" content="">
 <link rel="apple-touch-icon" href="icon.png">
-<!-- Place favicon.ico in the root directory -->
 <link rel="stylesheet" href="css/style.css">
 <meta name="theme-color" content="#fafafa">
 </head>
@@ -189,10 +188,10 @@
 </footer>
 
 <script>
-var field = document.querySelector('#datumOcitavanja');
-var date = new Date();
-// Podesi danasnji datum 
-field.value = date.getFullYear().toString() + '-' + (date.getMonth() + 1).toString().padStart(2, 0) + '-' + date.getDate().toString().padStart(2, 0);
+	var field = document.querySelector('#datumOcitavanja');
+	var date = new Date();
+	// Podesi danasnji datum 
+	field.value = date.getFullYear().toString() + '-' + (date.getMonth() + 1).toString().padStart(2, 0) + '-' + date.getDate().toString().padStart(2, 0);
 </script>
 
 </body>
