@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+html {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #222222;
+}
+
+*,:after,:before {
+	box-sizing: inherit;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0 0 2rem 0;
+	background: #ECE9E6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.uvod {
+	margin: 0 0 3rem 0;
+	padding: 2rem 2rem 3rem 2rem;
+	background-color: #0052D4;
+	text-align: center;
+	background: url(https://i.imgur.com/03yrEv8.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.6rem;
+	letter-spacing: 0.2rem;
+	color: #fafafa;
+}
+
+.uvod p {
+	font-size: 1.1rem;
+	letter-spacing: 0.05rem;
+	color: #fafafa;
+}
+
+.clear {
+	clear: both;
+}
+
+.hero {
+	display: flex;
+	flex-direction: row;
+}
+
+.container {
+	max-width: 939px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+.zvezda {
+	float: right;
+	color: #ac0000;
+}
+
+label {
+	font-size: 0.9rem;
+}
+
+input {
+	width: 100%;
+	height: 2.6rem;
+	margin-bottom: 0.1rem;
+	padding: 0.1rem 0.4rem 0 0.6rem;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+}
+
+input:focus {
+	border: 1px solid #2d638b;
+	outline: 0;
+}
+
+input[type="date"] {
+    position: relative;
+}
+
+input[type="date"]:after {
+    content: "\25BC"; 
+    color: #f9f9f9;
+    padding: 0 5px;
+}
+
+input[type="date"]:hover:after {
+    color: #f9f9f9;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    color: transparent;
+    background: transparent;
+}
+
+input[type="date"]::-webkit-inner-spin-button {
+    z-index: 1;
+}
+
+input[type="date"]::-webkit-clear-button {
+    z-index: 1;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+select {
+	/* styling */
+	width: 100%;
+	height: 2.6rem;
+	background-color: white;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+	display: inline-block;
+	line-height: 1.5rem;
+	padding: 0.5rem 3.5rem 0.4rem 0.6rem;
+	/* reset */
+	margin: 0;      
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+
+
+select.minimal {
+	background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc);
+	background-position: calc(100% - 15px) calc(1rem + 3px), calc(100% - 10px) calc(1rem + 3px), calc(100% - 2rem) 0.5rem;
+	background-size: 5px 5px, 5px 5px, 1px 1.5rem;
+	background-repeat: no-repeat;
+}
+
+select.minimal:focus {
+	background-image: linear-gradient(45deg, #2d638b 50%, transparent 50%), linear-gradient(135deg, transparent 50%, #2d638b 50%), linear-gradient(to right, #ccc, #ccc);
+	background-position: calc(100% - 10px) calc(1rem + 3px), calc(100% - 15px) calc(1rem + 3px), calc(100% - 2rem) 0.5rem;
+	background-size: 5px 5px, 5px 5px, 1px 1.55rem;
+	background-repeat: no-repeat;
+	border-color: #2d638b;
+	outline: 0;
+}
+
+
+select:-moz-focusring {
+	color: transparent;
+	text-shadow: 0 0 0 #000;
+}
+
+.posalji {
+	margin-top: 2rem;
+	color: #fafafa;
+	background-color: #184b75;
+	cursor: pointer;
+}
+
+.posalji:hover, .posalji:focus {
+	background-color: #2d638b;
+}
+
+footer {
+	padding: 1rem 2rem 0.2rem 2rem;
+	text-align: center;
+}
+
+footer p {
+	font-size: 0.8rem;
+	line-height: 1.5rem;
+	color: #555555;
+}
