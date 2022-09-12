@@ -8,6 +8,5 @@ Not working as of 2022.
 ```
 Linux
 Apache
-MySQL
 PHP
 ```
