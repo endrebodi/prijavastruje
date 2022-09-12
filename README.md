@@ -1,5 +1,5 @@
 # Prijava Struje
-Website enabling online electric power consumption reporting in Serbia
+Website enabling online electric power consumption reporting in Serbia.
 
 ## Requirements 
 
